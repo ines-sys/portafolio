@@ -1,5 +1,8 @@
+import { IFrameImageProps } from '../common/FrameImage/types'
+
 export interface IProjectCard {
-    dateRange: string;
     title: string;
     desc: string; 
+    link: string;
+    image: IFrameImageProps;
 }
