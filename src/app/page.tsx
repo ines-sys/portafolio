@@ -11,13 +11,13 @@ import { IFrameImage } from "./components/common/FrameImage/types";
 const profileImage: IFrameImage = {
   src: '/img/ines_profile_photo.jpg',
   alt: 'profile image',
-  height: 200,
-  width: 200
+  height: 150,
+  width: 150
 }
 const experienceCards: IExperienceCard[] = [
   {
-    title: `Developer · Confidential Dominican Bank`,
-    desc: 'Perform improvements and maintenance in the software used by the bank, analyzing user requirements to design and program quality technological solutions, integrating APIs and external services. Participate in assigned projects, either in programming tasks or managing requirements with suppliers, ensuring timely delivery and quality of products, following the bank standards. design the architecture and user interfaces in the systems, documenting developments, unit tests and user guides. Implement improvements in test environments to ensure integration and error detection before going into production.',
+    title: `Developer · Confidencial Dominican Bank`,
+    desc: 'Maintain and enhance banking softwares by designing solutions, integrating APIs, and coordinating with suppliers. Design system architecture, document developments, run unit tests, and improve test environments for error detection.',
     dateRange: 'May 2024 - Present',
     link: '#',
     tags: [
@@ -58,7 +58,7 @@ const experienceCards: IExperienceCard[] = [
   },
   {
     title: `e-Commerce and fullstack Developer · Remote for exportation`,
-    desc: 'Planned the implementation and deployment of virtual stores on the Shopify on the Shopify platform. Created responsive web designs and customizable storefront templates, as well as customizable store templates, as well as improving store performance. Worked with the external services to the stores for review section review sections, product customizations and pages with dynamic sections. Wrote guidelines for the use of the changes applied to the templates and additional services templates and additional services added',
+    desc: 'Planned and deployed virtual stores on Shopify, creating responsive designs and customizable storefront templates. Improved store performance, integrated external services for reviews, product customizations, and dynamic sections. Developed guidelines for template changes and added services.',
     dateRange: 'Dec 2023 - May 2024',
     link: '#',
     tags: [
@@ -84,7 +84,7 @@ const experienceCards: IExperienceCard[] = [
   },
   {
     title: 'e-Commerce Developer · Your Store Wizards',
-    desc: '(Outsourcing service with Minnek Digital Studio) Create, develop and customize e-commerce stores on platforms such as Shopify, BigCommerce and WordPress, applying web development best practices, including responsive design and using key technologies. Design and coded reusable and customizable user interfaces, managing their maintenance, updates and scalability. Improve Code Web Vitals and SEO performance of stores and provided technical assistance to store owners in their queries about developing on these platforms.',
+    desc: '(Outsourcing service with Minnek Digital Studio) Developed and customized e-commerce stores on Shopify, BigCommerce, and WordPress, applying web best practices and responsive design. Designed reusable user interfaces, handled maintenance and scalability, improved Web Vitals and SEO performance, and provided technical support to store owners.',
     dateRange: 'Sep 2021 - Dec 2023',
     link: 'https://yourstorewizards.com/',
     tags: [
@@ -104,7 +104,7 @@ const experienceCards: IExperienceCard[] = [
   },
   {
     title: `Frontend Developer · Minnek Digital Studio`,
-    desc: 'Provide web development services for clients following agile methodology guidelines, web programming best practices and responsive design. Use of Trello and Jira as management systems. Coding layouts following design patterns and approaches given by end users. Code review and debugging. Worked on the creation of websites with NextJS.',
+    desc: 'Provided web development services using agile methodologies, responsive design, and best practices. Utilized Trello and Jira for project management. Coded layouts based on user specifications, conducted code reviews, debugging, and built websites with Next.js.',
     dateRange: 'Jun 2021 - Dec 2023',
     link: 'https://www.minnekdigital.com/en',
     tags: [
@@ -130,55 +130,190 @@ const experienceCards: IExperienceCard[] = [
 
 const projectCards: IProjectCard[] = [
   {
-    title: 'first project',
-    desc: 'this is the desc of the first project',
-    link: '#',
+    title: 'DS Marketing · Shopify store',
+    desc: 'Led a team of 2 developers in creating product, cart, internal pages, and the footer. Reviewed code, tracked client requests, built custom features for product pages, cleaned store data, and provided technical support on Shopify management.',
+    link: 'https://dsmarketing.com/',
     image: {
-      src: '/img/logo_dog_220x.avif',
+      src: '/img/ds_marketing.avif',
       alt: 'first project image'
     }
   },
   {
-    title: 'second project',
-    desc: 'this is the desc of the second project',
+    title: 'Bisket Baskets · Shopify store',
+    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    link: 'https://www.bisketbaskets.com/',
+    image: {
+      src: '/img/bisketbaskets.png',
+      alt: 'Bisket Baskets'
+    }
+  },
+  {
+    title: 'Big Dot of Happiness · Shopify store',
+    desc: 'Creation and design of the footer section, internal pages, collection, and account pages.',
+    link: 'https://www.bisketbaskets.com/',
+    image: {
+      src: '/img/bdh.png',
+      alt: 'Big Dot of Happiness '
+    }
+  },
+  {
+    title: 'Sport Unlimited Inc. · BigCommerce store',
+    desc: 'Creation and design of the footer and header section, and all sections on the product, cart, account, and collection list pages',
+    link: 'https://www.sportsunlimitedinc.com/',
+    image: {
+      src: '/img/sportunlimited.webp',
+      alt: 'Sport Unlimited Inc'
+    }
+  },
+  {
+    title: 'The Dog Outdoors · Shopify store',
+    desc: 'Creation and design of the product page (gallery section) and internal pages. Also, the footer section and the featured collection carousels on the home page.',
+    link: 'https://www.thedogoutdoors.com/',
+    image: {
+      src: '/img/thedogoutdoors.avif',
+      alt: 'The Dog Outdoors'
+    }
+  },
+  {
+    title: 'Autogeek.net · BigCommerce store',
+    desc: 'Creation and design of the product and internal pages and the footer and product carousels sections on the home page.',
+    link: 'https://www.autogeek.net/',
+    image: {
+      src: '/img/autogeek.webp',
+      alt: 'Autogeek'
+    }
+  },
+  {
+    title: 'US Appliance · Shopify store',
+    desc: 'Creation and design of the product, internal pages, and the footer and product carousels sections on the home page.',
+    link: 'https://www.us-appliance.com/',
+    image: {
+      src: '/img/us-appliance.webp',
+      alt: 'US Appliance'
+    }
+  },
+  {
+    title: 'Ramblers Way · Shopify store',
+    desc: '',
+    link: 'https://www.ramblersway.com/',
+    image: {
+      src: '/img/ramblersway.avif',
+      alt: 'Ramblers Way'
+    }
+  },
+  {
+    title: 'The MotorBook Store · BigCommerce store',
+    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    link: 'https://www.themotorbookstore.com/',
+    image: {
+      src: '/img/themotorbookstore.webp',
+      alt: 'The MotorBook Store'
+    }
+  },
+  {
+    title: 'Media Supply · Shopify store',
+    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    link: 'https://mediasupply.com/',
+    image: {
+      src: '/img/mediasupply.avif',
+      alt: 'Media Supply'
+    }
+  },
+  {
+    title: 'Zimmer MedizinSystems · BigCommerce store',
+    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    link: 'https://shop.zimmerusa.com/',
+    image: {
+      src: '/img/zimmerusa.webp',
+      alt: 'Zimmer MedizinSystems'
+    }
+  },
+  {
+    title: 'Paper & Ink Arts · BigCommerce store',
+    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    link: 'https://www.paperinkarts.com/',
+    image: {
+      src: '/img/pia.webp',
+      alt: 'Parper & Ink Arts'
+    }
+  },
+  {
+    title: 'Tall Man Shoes· Shopify store',
+    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    link: 'https://www.tallmenshoes.com/',
+    image: {
+      src: '/img/tallmenshoes.avif',
+      alt: 'Tall Man Shoes'
+    }
+  },
+  {
+    title: 'Ghurka · Shopify store',
+    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    link: 'https://ghurka.com/',
+    image: {
+      src: '/img/ghurka.webp',
+      alt: 'Ghurka'
+    }
+  },
+  {
+    title: 'The Public Safety Store · Shopify store',
+    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    link: 'https://www.thepublicsafetystore.com',
+    image: {
+      src: '/img/pss.webp',
+      alt: 'The Public Safety Store'
+    }
+  },
+  {
+    title: 'Cuenta de Ahorro Ágil · Digital bank account',
+    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    link: 'https://banfondesa.com.do/productos/ahorro/cuenta-de-ahorro-agil/',
+    image: {
+      src: '/img/caa.png',
+      alt: 'Cuenta de Ahorro Ágil - Banfondesa'
+    }
+  },
+  {
+    title: 'Portal de aplicaciones · Internal bank portal',
+    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
     link: '#',
     image: {
-      src: '/img/logo_dog_220x.avif',
-      alt: 'second project image'
+      src: '/img/portal.webp',
+      alt: 'Portal de aplicaciones internas'
     }
   },
 ]
 export default function Home() {
   return (
-    <div className="font-[family-name:var(--font-geist-mono)] mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div className="font-[family-name:var(--font-geist-mono)] mx-auto min-h-screen max-w-screen-xl px-6 py-2 md:px-12 md:py-10 lg:px-10 lg:py-0">
       <div className="flex flex-col gap-8 row-start-2">
         <div className="lg:flex lg:justify-between lg:gap-4">
-          <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-20">
+          <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-5">
             <header>
-              <h1 className="font-extrabold text-3xl mb-3 mt-6">Inés María Montero Concepción</h1>
-              <h2 className="font-semibold text-xl">
-                <span>Computer Systems Engineer</span>
+              <h1 className="font-extrabold text-2xl mb-2 mt-6">Inés María Montero Concepción</h1>
+              <h2 className="font-semibold">
+                <span className="text-base">Computer Systems Engineer</span>
                 <br />
-                <span>Full Stack Web Developer</span>
+                <span className="text-base">Full Stack Web Developer</span>
                 <br />
-                <small>
+                <small className="text-sm">
                   Welcome to my little space in the World Wide Web 👩‍💻👋
                 </small>
               </h2>
             </header>
             <div className="flex flex-col items-center m-auto p-4 max-w-xl text-center">
               <FrameImage {...profileImage} className="mb-4 rounded-full shadow-lg" />
-              <p className="">
+              <p className="text-sm">
                 Just a <span className="relative inline-block"><span className="absolute inset-0 h-0.5 bg-red-600 top-1/2 transform -translate-y-1/2" />book lover</span> (computer geek) who transforms ideas into amazing web experiences with a mix of discipline, a pinch of creativity... <br /> and maybe a couple of cups of coffee.
               </p>
             </div>
 
             <div className="mt-auto">
-              <span className="italic">Lost among books at home <span className="border-b-2 border-red-600">(also in break times)</span>, coding solutions at work!</span>
+              <span className="italic text-sm">Lost among books at home <span className="border-b-2 border-red-600">(also in break times)</span>, coding solutions at work!</span>
               <SocialContact />
             </div>
           </div>
-          <main className="py-20 lg:w-1/2">
+          <main className="py-5 lg:w-1/2">
             {experienceCards.map((item, index) => (
               <div key={index} className='mb-4'>
                 <ExperienceCard {...item} />
@@ -191,7 +326,7 @@ export default function Home() {
             <span className="text-3xl font-bold ">Projects I have worked on</span> 
             <span className="text-2xl">(worked during break times for a couple of those)</span>
           </h2>
-          <div className="mt-[70px]">
+          <div className="mt-[70px] grid lg:grid-cols-2 gap-6">
             {projectCards.map((item, index) => (
               <div key={index} className='mb-4'>
                 <ProjectCard {...item} />
