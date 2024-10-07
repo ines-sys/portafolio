@@ -3,21 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1b0231;
+  --foreground: #ffffffd2;
+  --primary: #6b21a8;
+  --secondary: #e9d5ff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground: #373737;
-    --background: #ededed;
-  }
-}
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
@@ -34,7 +29,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px 25px;
+  padding: 25px 25px 25px 0;
   gap: 20px;
 }
 
@@ -91,16 +86,16 @@ body {
 .socialContainer {
   transition: transform 0.4s ease-in-out;
 }
-
+/*
 .socialContainer:hover {
   transform: scale(1.1);
 }
-
+*/
 /* Project card */
 .projectCard:hover .svgIcon {
   transform: scale(1.1);
 }
-
+/*
 .projectCard:hover {
   transform: scale(1.1);
 }
@@ -108,9 +103,9 @@ body {
 .projectCard:hover img {
   transform: rotate(5deg) scale(1.2);
 }
-
+*/
 /* Experience card */
 .experienceCard:hover .svgIcon {
   transform: scale(1.1);
-  stroke:#5b21b6;
+  stroke: var(--secondary);
 }
