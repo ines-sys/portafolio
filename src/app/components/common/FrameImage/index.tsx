@@ -1,12 +1,12 @@
 import Image from "next/image"
-import { IFrameImageProps } from './types';
+import { IFrameImage } from './types';
 import { clsx } from 'clsx';
 
 const DEFAULT_CLASSES = "";
 const DEFAULT_IMAGE_WIDTH = 100;
 const DEFAULT_IMAGE_HEIGHT = 100;
 
-const FrameImage = ({...props}: IFrameImageProps ) => {
+const FrameImage = ({...props}: IFrameImage ) => {
   const classNames = clsx(DEFAULT_CLASSES, props.className);
 
   return (

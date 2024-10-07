@@ -1,4 +1,4 @@
-export interface IFrameImageProps {
+export interface IFrameImage {
     src: string;
 	alt: string;
 	className?: string;
