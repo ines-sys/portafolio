@@ -157,6 +157,15 @@ const projectCards: IProjectCard[] = [
     }
   },
   {
+    title: 'Autogeek.net · BigCommerce store',
+    desc: 'Creation and design of the product and internal pages and the footer and product carousels sections on the home page.',
+    link: 'https://www.autogeek.net/',
+    image: {
+      src: '/img/autogeek.webp',
+      alt: 'Autogeek'
+    }
+  },
+  {
     title: 'Sport Unlimited Inc. · BigCommerce store',
     desc: 'Creation and design of the footer and header section, and all sections on the product, cart, account, and collection list pages',
     link: 'https://www.sportsunlimitedinc.com/',
@@ -175,15 +184,6 @@ const projectCards: IProjectCard[] = [
     }
   },
   {
-    title: 'Autogeek.net · BigCommerce store',
-    desc: 'Creation and design of the product and internal pages and the footer and product carousels sections on the home page.',
-    link: 'https://www.autogeek.net/',
-    image: {
-      src: '/img/autogeek.webp',
-      alt: 'Autogeek'
-    }
-  },
-  {
     title: 'US Appliance · Shopify store',
     desc: 'Creation and design of the product, internal pages, and the footer and product carousels sections on the home page.',
     link: 'https://www.us-appliance.com/',
@@ -194,7 +194,7 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'Ramblers Way · Shopify store',
-    desc: '',
+    desc: 'Customization of the base Shopify template (Dawn) according to the design approved by the client. Customized management and deployment of metafields on product and collection pages, product variants. Customization of internal pages ',
     link: 'https://www.ramblersway.com/',
     image: {
       src: '/img/ramblersway.avif',
@@ -203,7 +203,7 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'The MotorBook Store · BigCommerce store',
-    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    desc: 'Creation and design of the footer and header, info sections on the product, cart and account pages',
     link: 'https://www.themotorbookstore.com/',
     image: {
       src: '/img/themotorbookstore.webp',
@@ -212,7 +212,7 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'Media Supply · Shopify store',
-    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    desc: 'Customization of the template according to the supplied design, customization of the collection and internal pages. Styling of header, footer and card sections at home page and info sections at product page.',
     link: 'https://mediasupply.com/',
     image: {
       src: '/img/mediasupply.avif',
@@ -221,7 +221,7 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'Zimmer MedizinSystems · BigCommerce store',
-    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    desc: 'Apply custom styling to product page, sidebar, header, footer .',
     link: 'https://shop.zimmerusa.com/',
     image: {
       src: '/img/zimmerusa.webp',
@@ -230,7 +230,7 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'Paper & Ink Arts · BigCommerce store',
-    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    desc: 'Creation of customizable mega menu with widgets and products section, brands carousel, reviews section, faqs section on the home page. Customization of the product page (features/details section, general info section, rewards program section and customer section). Also customize the internal pages.',
     link: 'https://www.paperinkarts.com/',
     image: {
       src: '/img/pia.webp',
@@ -239,7 +239,7 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'Tall Man Shoes· Shopify store',
-    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    desc: 'Full product page and product cards customization (sticky gallery, display of variants and tags, hover effects, metafield info, quick view). Creation of custom gallery sections at home page. Integration of review service. Customization of header and footer sections',
     link: 'https://www.tallmenshoes.com/',
     image: {
       src: '/img/tallmenshoes.avif',
@@ -248,7 +248,7 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'Ghurka · Shopify store',
-    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    desc: 'Full product page and product cards customization (gallery, display of variants as separete products, custom swatches, product details, integration of yotpo reviews and Klaviyo). Customization of header and footer section.',
     link: 'https://ghurka.com/',
     image: {
       src: '/img/ghurka.webp',
@@ -257,7 +257,7 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'The Public Safety Store · Shopify store',
-    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    desc: 'Customization of header and footer sections with widgets, full product page with review integration and internal pages',
     link: 'https://www.thepublicsafetystore.com',
     image: {
       src: '/img/pss.webp',
@@ -266,16 +266,16 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'Cuenta de Ahorro Ágil · Digital bank account',
-    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    desc: 'Creation of the user interface (complete frontend work). 100% digital account that you can open in a few minutes, from your cell phone or PC and with just your ID card, without the need to go to a bank branch, wherever you are.',
     link: 'https://banfondesa.com.do/productos/ahorro/cuenta-de-ahorro-agil/',
     image: {
       src: '/img/caa.png',
-      alt: 'Cuenta de Ahorro Ágil - Banfondesa'
+      alt: 'Cuenta de Ahorro Ágil'
     }
   },
   {
     title: 'Portal de aplicaciones · Internal bank portal',
-    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    desc: 'Full stack creation of the bank`s internal application portal using NextJS and NestJS and the integration of Azure: Microsoft 365 for logging.',
     link: '#',
     image: {
       src: '/img/portal.webp',
@@ -328,7 +328,7 @@ export default function Home() {
           </h2>
           <div className="mt-[70px] grid lg:grid-cols-2 gap-6">
             {projectCards.map((item, index) => (
-              <div key={index} className='mb-4'>
+              <div key={index} className='mb-4 flex items-center'>
                 <ProjectCard {...item} />
               </div>
             ))}
