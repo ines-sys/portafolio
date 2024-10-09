@@ -9,7 +9,7 @@ import FrameImage from "./components/common/FrameImage";
 import { IFrameImage } from "./components/common/FrameImage/types";
 
 const profileImage: IFrameImage = {
-  src: '/img/ines_profile_photo.jpg',
+  src: 'https://ines-sys.github.io/portafolio/img/ines_profile_photo.jpg',
   alt: 'profile image',
   height: 200,
   width: 200
