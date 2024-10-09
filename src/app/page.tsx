@@ -247,15 +247,6 @@ const projectCards: IProjectCard[] = [
     }
   },
   {
-    title: 'The Public Safety Store · Shopify store',
-    desc: 'Customization of header and footer sections with widgets, full product page with review integration and internal pages',
-    link: 'https://www.thepublicsafetystore.com',
-    image: {
-      src: '/img/pss.webp',
-      alt: 'The Public Safety Store'
-    }
-  },
-  {
     title: 'Cuenta de Ahorro Ágil · Digital bank account',
     desc: 'Creation of the user interface (complete frontend work). 100% digital account that you can open in a few minutes, from your cell phone or PC and with just your ID card, without the need to go to the bank.',
     link: 'https://banfondesa.com.do/productos/ahorro/cuenta-de-ahorro-agil/',
@@ -317,7 +308,7 @@ export default function Home() {
             <span className="text-3xl font-bold ">Projects I have worked on</span> 
             <span className="text-2xl">(worked during break times for a couple of those)</span>
           </h2>
-          <div className="mt-[70px] grid lg:grid-cols-2 gap-6">
+          <div className="mt-[50px] mb-[20px] lg:mb-[40px] grid lg:grid-cols-2 gap-6">
             {projectCards.map((item, index) => (
               <div key={index} className='mb-4 flex items-center'>
                 <ProjectCard {...item} />
