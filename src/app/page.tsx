@@ -308,7 +308,7 @@ export default function Home() {
             <span className="text-3xl font-bold ">Projects I have worked on</span> 
             <span className="text-2xl">(worked during break times for a couple of those)</span>
           </h2>
-          <div className="mt-[70px] grid lg:grid-cols-2 gap-6">
+          <div className="mt-[50px] mb-[20px] lg:mb-[40px] grid lg:grid-cols-2 gap-6">
             {projectCards.map((item, index) => (
               <div key={index} className='mb-4 flex items-center'>
                 <ProjectCard {...item} />
