@@ -247,15 +247,6 @@ const projectCards: IProjectCard[] = [
     }
   },
   {
-    title: 'The Public Safety Store · Shopify store',
-    desc: 'Customization of header and footer sections with widgets, full product page with review integration and internal pages',
-    link: 'https://www.thepublicsafetystore.com',
-    image: {
-      src: '/img/pss.webp',
-      alt: 'The Public Safety Store'
-    }
-  },
-  {
     title: 'Cuenta de Ahorro Ágil · Digital bank account',
     desc: 'Creation of the user interface (complete frontend work). 100% digital account that you can open in a few minutes, from your cell phone or PC and with just your ID card, without the need to go to the bank.',
     link: 'https://banfondesa.com.do/productos/ahorro/cuenta-de-ahorro-agil/',
