@@ -11,8 +11,8 @@ import { IFrameImage } from "./components/common/FrameImage/types";
 const profileImage: IFrameImage = {
   src: '/img/ines_profile_photo.jpg',
   alt: 'profile image',
-  height: 150,
-  width: 150
+  height: 200,
+  width: 200
 }
 const experienceCards: IExperienceCard[] = [
   {
@@ -131,7 +131,7 @@ const experienceCards: IExperienceCard[] = [
 const projectCards: IProjectCard[] = [
   {
     title: 'DS Marketing · Shopify store',
-    desc: 'Led a team of 2 developers in creating product, cart, internal pages, and the footer. Reviewed code, tracked client requests, built custom features for product pages, cleaned store data, and provided technical support on Shopify management.',
+    desc: 'Led project as main developer. Work with the creating of product, cart, internal pages, and the footer. Built custom features for product pages, cleaned store data, and provided technical support on Shopify management.',
     link: 'https://dsmarketing.com/',
     image: {
       src: '/img/ds_marketing.avif',
@@ -140,7 +140,7 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'Bisket Baskets · Shopify store',
-    desc: 'Led a team of 2 developers in creating product, internal pages, footer, about us, and featured product sections. Reviewed code, tracked client requests, built custom features for adding multiple products to the cart, and provided technical support on Shopify management.',
+    desc: 'Led project as main developer. Work with the creating of product, internal pages, footer and featured product sections. Built custom multi add-to-card on product page and provided technical support on Shopify management.',
     link: 'https://www.bisketbaskets.com/',
     image: {
       src: '/img/bisketbaskets.png',
@@ -220,15 +220,6 @@ const projectCards: IProjectCard[] = [
     }
   },
   {
-    title: 'Zimmer MedizinSystems · BigCommerce store',
-    desc: 'Apply custom styling to product page, sidebar, header, footer .',
-    link: 'https://shop.zimmerusa.com/',
-    image: {
-      src: '/img/zimmerusa.webp',
-      alt: 'Zimmer MedizinSystems'
-    }
-  },
-  {
     title: 'Paper & Ink Arts · BigCommerce store',
     desc: 'Creation of customizable mega menu with widgets and products section, brands carousel, reviews section, faqs section on the home page. Customization of the product page (features/details section, general info section, rewards program section and customer section). Also customize the internal pages.',
     link: 'https://www.paperinkarts.com/',
@@ -266,7 +257,7 @@ const projectCards: IProjectCard[] = [
   },
   {
     title: 'Cuenta de Ahorro Ágil · Digital bank account',
-    desc: 'Creation of the user interface (complete frontend work). 100% digital account that you can open in a few minutes, from your cell phone or PC and with just your ID card, without the need to go to a bank branch, wherever you are.',
+    desc: 'Creation of the user interface (complete frontend work). 100% digital account that you can open in a few minutes, from your cell phone or PC and with just your ID card, without the need to go to the bank.',
     link: 'https://banfondesa.com.do/productos/ahorro/cuenta-de-ahorro-agil/',
     image: {
       src: '/img/caa.png',
@@ -303,7 +294,7 @@ export default function Home() {
             </header>
             <div className="flex flex-col items-center m-auto p-4 max-w-xl text-center">
               <FrameImage {...profileImage} className="mb-4 rounded-full shadow-lg" />
-              <p className="text-sm">
+              <p className="text-base">
                 Just a <span className="relative inline-block"><span className="absolute inset-0 h-0.5 bg-red-600 top-1/2 transform -translate-y-1/2" />book lover</span> (computer geek) who transforms ideas into amazing web experiences with a mix of discipline, a pinch of creativity... <br /> and maybe a couple of cups of coffee.
               </p>
             </div>
