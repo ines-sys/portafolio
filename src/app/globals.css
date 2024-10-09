@@ -3,25 +3,109 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1b0231;
+  --foreground: #ffffffd2;
+  --primary: #6b21a8;
+  --secondary: #e9d5ff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Social contact */
+.socialCard {
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px 25px 0;
+  gap: 20px;
+}
+
+/* for all social containers*/
+/* gmail*/
+.containerOne:hover {
+  background-color: red;
+  transition-duration: 0.3s;
+}
+/* github*/
+.containerTwo:hover {
+  background-color: black;
+  transition-duration: 0.3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: 0.3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128c7e;
+  transition-duration: 0.3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.1s;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.2s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+      transform: translateY(-1000px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.socialCard {
+  animation: slide-in-top 1s ease-in-out both;
+}
+
+.socialContainer {
+  transition: transform 0.4s ease-in-out;
+}
+/*
+.socialContainer:hover {
+  transform: scale(1.1);
+}
+*/
+/* Project card */
+.projectCard:hover .svgIcon {
+  transform: scale(1.1);
+}
+/*
+.projectCard:hover {
+  transform: scale(1.1);
+}
+
+.projectCard:hover img {
+  transform: rotate(5deg) scale(1.2);
+}
+*/
+/* Experience card */
+.experienceCard:hover .svgIcon {
+  transform: scale(1.1);
+  stroke: var(--secondary);
 }
