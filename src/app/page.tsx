@@ -14,10 +14,11 @@ const profileImage: IFrameImage = {
   height: 200,
   width: 200
 }
+
 const experienceCards: IExperienceCard[] = [
   {
     title: `Developer · Confidencial Dominican Bank`,
-    desc: 'Maintain and enhance banking softwares by designing solutions, integrating APIs, and coordinating with suppliers. Design system architecture, document developments, run unit tests, and improve test environments for error detection.',
+    desc: 'Maintain and improve banking software by designing solutions, integrating APIs, coordinating with suppliers, designing architecture, documenting, and running tests for error detection.',
     dateRange: 'May 2024 - Present',
     link: '#',
     tags: [
@@ -58,7 +59,7 @@ const experienceCards: IExperienceCard[] = [
   },
   {
     title: `e-Commerce and fullstack Developer · Remote for exportation`,
-    desc: 'Planned and deployed virtual stores on Shopify, creating responsive designs and customizable storefront templates. Improved store performance, integrated external services for reviews, product customizations, and dynamic sections. Developed guidelines for template changes and added services.',
+    desc: 'Planned and launched Shopify virtual stores with responsive designs and customizable templates. Enhanced performance, integrated reviews, product customization, and dynamic sections, while creating guidelines for template updates.',
     dateRange: 'Dec 2023 - May 2024',
     link: '#',
     tags: [
@@ -84,7 +85,7 @@ const experienceCards: IExperienceCard[] = [
   },
   {
     title: 'e-Commerce Developer · Your Store Wizards',
-    desc: '(Outsourcing service with Minnek Digital Studio) Developed and customized e-commerce stores on Shopify, BigCommerce, and WordPress, applying web best practices and responsive design. Designed reusable user interfaces, handled maintenance and scalability, improved Web Vitals and SEO performance, and provided technical support to store owners.',
+    desc: '(Outsourcing service with Minnek Digital Studio) Developed and customized e-commerce stores on Shopify, BigCommerce, and WordPress, using best web practices and responsive design. Created reusable UIs, ensured maintenance and scalability, optimized Web Vitals and SEO, and provided technical support to store owners.',
     dateRange: 'Sep 2021 - Dec 2023',
     link: 'https://yourstorewizards.com/',
     tags: [
@@ -104,7 +105,7 @@ const experienceCards: IExperienceCard[] = [
   },
   {
     title: `Frontend Developer · Minnek Digital Studio`,
-    desc: 'Provided web development services using agile methodologies, responsive design, and best practices. Utilized Trello and Jira for project management. Coded layouts based on user specifications, conducted code reviews, debugging, and built websites with Next.js.',
+    desc: 'Provided web development services using agile methodologies, responsive design, and best practices. Managed projects with Trello and Jira, coded user-specified layouts, conducted code reviews, debugging, and built websites with Next.js.',
     dateRange: 'Jun 2021 - Dec 2023',
     link: 'https://www.minnekdigital.com/en',
     tags: [
@@ -286,12 +287,11 @@ export default function Home() {
             <div className="flex flex-col items-center m-auto p-4 max-w-xl text-center">
               <FrameImage {...profileImage} className="mb-4 rounded-full shadow-lg" />
               <p className="text-base">
-                Just a <span className="relative inline-block"><span className="absolute inset-0 h-0.5 bg-red-600 top-1/2 transform -translate-y-1/2" />book lover</span> (computer geek) who transforms ideas into amazing web experiences with a mix of discipline, a pinch of creativity... <br /> and maybe a couple of cups of coffee.
+                Just a <span className="relative inline-block"><span className="absolute inset-0 h-0.5 bg-red-600 top-1/2 transform -translate-y-1/2" />book lover</span> (computer geek) who transforms ideas into amazing web experiences with discipline, creativity... <br /> and maybe a bit of coffee.
               </p>
             </div>
 
             <div className="mt-auto">
-              <span className="italic text-sm">Lost among books at home <span className="border-b-2 border-red-600">(also in break times)</span>, coding solutions at work!</span>
               <SocialContact />
             </div>
           </div>
@@ -303,18 +303,20 @@ export default function Home() {
             ))}
           </main>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mb-[20px] lg:mb-[50px]">
           <h2 className="flex flex-col items-center">
-            <span className="text-3xl font-bold ">Projects I have worked on</span> 
-            <span className="text-2xl">(worked during break times for a couple of those)</span>
+            <span className="text-2xl lg:text-3xl font-bold ">Projects I have worked on</span> 
+            <span className="text-xl lg:text-2xl text-center">(worked during break times for a couple of those)</span>
           </h2>
-          <div className="mt-[50px] mb-[20px] lg:mb-[40px] grid lg:grid-cols-2 gap-6">
+          <div className="mt-[50px] grid lg:grid-cols-2 gap-6">
             {projectCards.map((item, index) => (
               <div key={index} className='mb-4 flex items-center'>
                 <ProjectCard {...item} />
               </div>
             ))}
           </div>
+          <br />
+          <span className="italic text-sm">Lost among books at home <span className="border-b-2 border-red-600">(also in break times)</span>, coding solutions at work!</span>
         </div>
       </div>
     </div>
