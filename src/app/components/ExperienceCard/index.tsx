@@ -7,7 +7,7 @@ const ExperienceCard = ({dateRange, title, desc, tags, link}: IExperienceCard) =
   return (
     <div>
         {title && dateRange && desc ? (
-        <Link href={link} className='experienceCard flex flex-col hover:text-secondary rounded-2xl p-6 hover:ring-2 hover:ring-secondary'>
+        <Link href={link} target='__blank' className='experienceCard flex flex-col hover:text-secondary rounded-2xl p-6 hover:ring-2 hover:ring-secondary'>
             <h3 className='font-bold flex items-center justify-between text-lg'>
                 <span>{title}</span>
                 <svg className='svgIcon -mt-1' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
