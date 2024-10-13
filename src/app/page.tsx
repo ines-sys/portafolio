@@ -1,4 +1,6 @@
 //import Image from "next/image";
+import "./globals.css";
+
 import ExperienceCard from "./components/ExperienceCard";
 import { IExperienceCard } from "./components/ExperienceCard/types";
 import SocialContact from "./components/SocialContact";
@@ -287,13 +289,12 @@ export default function Home() {
             <div className="flex flex-col items-center m-auto p-4 max-w-xl text-center">
               <FrameImage {...profileImage} className="mb-4 rounded-full shadow-lg" />
               <p className="text-base">
-                Just a <span className="relative inline-block"><span className="absolute inset-0 h-0.5 bg-red-600 top-1/2 transform -translate-y-1/2" />book lover</span> (computer geek) who transforms ideas into amazing web experiences with discipline, creativity... <br /> and maybe a bit of coffee.
+                Just a <span className="relative inline-block"><span className="absolute inset-0 h-0.5 bg-red-600 top-1/2 transform -translate-y-1/2" />book lover</span> (computer geek) who transforms ideas into amazing web experiences with discipline, creativity... <br /> and some coffee cups.
               </p>
             </div>
 
-            <div className="mt-auto">
-              <SocialContact />
-            </div>
+           
+            <SocialContact />
           </div>
           <main className="py-5 lg:w-1/2">
             {experienceCards.map((item, index) => (

@@ -13,7 +13,7 @@ const ProjectCard = ({ title, desc, image, link}: IProjectCard) => {
                     <FrameImage 
                         src={imgURL} 
                         alt={image.alt} 
-                        className={`${image.className} w-[100%]`} 
+                        className={`${image.className}`} 
                     />
                 </div>
                 <div className='font-medium text-xs duration-300 group-hover:text-purple-800 group-hover:z-[5] lg:w-[80%]'>
