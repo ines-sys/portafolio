@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { useEffect } from 'react';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -14,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Inés María Montero Concepción",
+  title: "Inés Montero",
   description: "Computer Systems Engineer - Full Stack Web Developer and e-Commerce Developer",
 };
 
