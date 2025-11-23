@@ -1,0 +1,129 @@
+{
+  "profile_name": "Inés María Montero Concepción",
+  "profile_role_1": "Computer Systems Engineer",
+  "profile_role_2": "Full Stack Web Developer",
+  "profile_role_3": "Master's Student in Strategic Software Engineering Management",
+  "profile_welcome": "Come on in, here's my little place on the web 👩‍💻👋",
+  "profile_description": "Just a <highlight>{{ book }}</highlight> (computer geek) who transforms ideas into amazing web experiences with discipline, creativity... and a few cups of coffee.",
+  "book_lover": "literature lover",
+
+  "projects_title": "Projects I've worked on",
+  "projects_subtitle": "(during my free time on some of them)",
+  "footer_quote": "Lost in books at home, and coding solutions at work!",
+
+  "tags": {
+    "react": "ReactJS",
+    "next": "NextJS",
+    "nest": "NestJS",
+    "php": "PHP",
+    "tailwind": "TailwindCSS",
+    "node": "NodeJS",
+    "js": "JavaScript",
+    "ts": "TypeScript",
+    "sqlserver": "Microsoft SQL Server",
+    "apis": "APIs",
+    "services_integration": "Services Integration",
+    
+    "liquid": "Liquid",
+    "ruby": "Ruby",
+    "graphql": "GraphQL",
+    "handlebards": "HandleBards",
+
+    "html": "HTML",
+    "css": "CSS/SASS"
+  },
+
+  "experiences": {
+    "bank_developer": {
+      "title": "Developer · Confidential Dominican Savings Bank",
+      "desc": "Maintain and improve banking systems through designing technological solutions, API integration, vendor management, architecture design, documentation, and running tests for error detection.",
+      "dateRange": "May 2024 - Present"
+    },
+    "ecommerce_remote": {
+      "title": "e-Commerce and fullstack Developer · Remote for export with real estate agency",
+      "desc": "Planned and launched Shopify virtual stores with responsive designs and customizable templates. Enhanced performance, integrated reviews, product page customization, and dynamic sections, while creating guidelines for template updates.",
+      "dateRange": "Dec 2023 - May 2024"
+    },
+    "your_store_wizards": {
+      "title": "e-Commerce Developer · Your Store Wizards",
+      "desc": "(Outsourcing service with Minnek Digital Studio) Developed and customized e-commerce stores on Shopify, BigCommerce, and WordPress, using best web practices and responsive design. Created reusable user interfaces, ensured maintenance and scalability, optimized Web Vitals and SEO, and provided technical support to store owners.",
+      "dateRange": "Sep 2021 - Dec 2023"
+    },
+    "minnek": {
+      "title": "Frontend Developer · Minnek Digital Studio",
+      "desc": "Provided web development services using agile methodologies, responsive design, and best practices. Managed projects with Trello and Jira, coded user-specified layouts, conducted code reviews, debugging, and built websites with Next.js.",
+      "dateRange": "Jun 2021 - Dec 2023"
+    }
+  },
+  
+  "projects": {
+    "ds_marketing": {
+      "title": "DS Marketing · Shopify store",
+      "desc": "Led project as main developer. Worked on creating product pages, shopping cart, internal pages, and the footer. Built custom features for the product page, cleaned store data, and provided technical support in platform management."
+    },
+    "bisket_baskets": {
+      "title": "Bisket Baskets · Shopify store",
+      "desc": "Led project as main developer. Worked on creating product pages, internal pages, footer, and featured product sections. Built a custom multi add-to-cart on the product page and provided technical support in platform management."
+    },
+    "big_dot": {
+      "title": "Big Dot of Happiness · Shopify store",
+      "desc": "Creation and design of the footer section, internal pages, collection, and account creation and login pages."
+    },
+    "autogeek": {
+      "title": "Autogeek.net · BigCommerce store",
+      "desc": "Creation and design of product and internal pages, footer sections, and product carousels on the home page."
+    },
+    "cuenta_ahorro": {
+      "title": "Cuenta de Ahorro Ágil · Digital bank account",
+      "desc": "Creation of the user interface (complete frontend work). 100% digital account that you can open in a few minutes, from your cell phone or PC and with just your ID card, without the need to go to the bank."
+    },
+     "pagachat": {
+      "title": "PagaChat · WS Chatbot",
+      "desc": "WhatsApp chatbot service that allows users to receive international transfers instantly directly to their bank savings account via Visa debit cards."
+    },
+    "portal_apps": {
+      "title": "Portal de aplicaciones · Internal bank portal",
+      "desc": "Full stack migration of the bank's internal application portal from PHP to NextJS. Azure integration: Microsoft 365 for login. This system manages access control to various internal systems, process reporting, and general management CRUDs"
+    },
+    "venta_marbetes": {
+      "title": "Venta de Marbetes · Internal bank system",
+      "desc": "Full stack migration of the bank's internal application for vehicle tax decal sales from PHP to NextJS. Azure integration: Microsoft 365 for login. System for managing, selling, and registering vehicle tax decals in the bank core and DGII."
+    },
+    "sport_unlimited": {
+      "title": "Sport Unlimited Inc. · BigCommerce store",
+      "desc": "Creation and design of footer and header section, and all sections on product, cart, account, and collection list pages"
+    },
+    "dog_outdoors": {
+      "title": "The Dog Outdoors · Shopify store",
+      "desc": "Creation and design of the product page (gallery section) and internal pages. Also, the footer section and the featured collection carousels on the home page."
+    },
+    "us_appliance": {
+      "title": "US Appliance · Shopify store",
+      "desc": "Creation and design of product page, internal pages, footer sections, and product carousels on the home page."
+    },
+    "ramblers_way": {
+      "title": "Ramblers Way · Shopify store",
+      "desc": "Customization of the base Shopify template (Dawn) according to the design approved by the client. Customized management and deployment of metafields on product and collection pages, product variants. Customization of internal pages"
+    },
+    "motorbook": {
+      "title": "The MotorBook Store · BigCommerce store",
+      "desc": "Creation and design of footer and header, info sections on product, cart, and account pages"
+    },
+    "media_supply": {
+      "title": "Media Supply · Shopify store",
+      "desc": "Customization of the template according to the supplied design, customization of collection and internal pages. Styling of header, footer, and card sections on the home page and info sections on the product page."
+    },
+    "paper_ink": {
+      "title": "Paper & Ink Arts · BigCommerce store",
+      "desc": "Creation of customizable mega menu with widgets and products section, brands carousel, reviews section, FAQs section on the home page. Customization of the product page (features/details section, general info section, rewards program section, and customer section). Customization of internal pages."
+    },
+    "tall_man": {
+      "title": "Tall Man Shoes · Shopify store",
+      "desc": "Full product page and product cards customization (sticky gallery, display of variants and tags, hover effects, metafield info, and quick view). Creation of custom gallery sections on the home page. Integration of review service. Customization of header and footer sections"
+    },
+    "ghurka": {
+      "title": "Ghurka · Shopify store",
+      "desc": "Full product page and product cards customization (gallery, display of variants as separate products, custom swatches, product details, integration of Yotpo reviews and Klaviyo). Customization of header and footer section."
+    }
+  }
+}

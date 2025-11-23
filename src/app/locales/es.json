@@ -1,0 +1,129 @@
+{
+  "profile_name": "Inés María Montero Concepción",
+  "profile_role_1": "Ingeniera en Sistemas Computacionales",
+  "profile_role_2": "Desarrolladora Web Full Stack",
+  "profile_role_3": "Maestrante en Gestión Estrategica de Ingeniera de Software",
+  "profile_welcome": "Adelante, aquí está mi pequeño lugar en la web 👩‍💻👋",
+  "profile_description": "Solo una <highlight>{{ book }}</highlight> (friki de las computadoras) que transforma ideas en experiencias web increíbles con disciplina, creatividad... y algunas tazas de café.",
+  "book_lover": "amante de la literatura",
+
+  "projects_title": "Proyectos en los que he trabajado",
+  "projects_subtitle": "(durante mis tiempos libres en algunos de ellos)",
+  "footer_quote": "Perdida entre libros en casa, ¡y codificando soluciones en el trabajo!",
+
+  "tags": {
+    "react": "ReactJS",
+    "next": "NextJS",
+    "nest": "NestJS",
+    "php": "PHP",
+    "tailwind": "TailwindCSS",
+    "node": "NodeJS",
+    "js": "JavaScript",
+    "ts": "TypeScript",
+    "sqlserver": "Microsoft SQL Server",
+    "apis": "APIs",
+    "services_integration": "Integración de servicios",
+    
+    "liquid": "Liquid",
+    "ruby": "Ruby",
+    "graphql": "GraphQL",
+    "handlebards": "HandleBards",
+
+    "html": "HTML",
+    "css": "CSS/SASS"
+  },
+
+  "experiences": {
+    "bank_developer": {
+      "title": "Desarrolladora · Banco Dominicano de Ahorro Confidencial",
+      "desc": "Mantener y mejorar los sistemas bancarios mediante el diseño de soluciones tecnológicas, integración de APIs, gestión con proveedores, diseño de arquitectura, documentación y ejecución de pruebas para la detección de errores.",
+      "dateRange": "Mayo 2024 - Presente"
+    },
+    "ecommerce_remote": {
+      "title": "Desarrolladora e-Commerce y fullstack · Remoto para exportación con agencia inmboliaria",
+      "desc": "Planifiqué y lancé tiendas virtuales en Shopify con diseños responsivos y plantillas personalizables. Mejoré el rendimiento, integré reseñas, personalización de páginas de producto y secciones dinámicas, mientras creaba directrices para actualizaciones de plantillas.",
+      "dateRange": "Dic 2023 - Mayo 2024"
+    },
+    "your_store_wizards": {
+      "title": "Desarrolladora e-Commerce · Your Store Wizards",
+      "desc": "(Servicio de outsourcing con Minnek Digital Studio) Desarrollé y personalicé tiendas de comercio electrónico en Shopify, BigCommerce y WordPress, utilizando las mejores prácticas web y diseño responsivo. Creé interfaces de usuario reutilizables, aseguré el mantenimiento y la escalabilidad, optimicé Web Vitals y SEO, y brindé soporte técnico a los propietarios de tiendas.",
+      "dateRange": "Sep 2021 - Dic 2023"
+    },
+    "minnek": {
+      "title": "Desarrolladora Frontend · Minnek Digital Studio",
+      "desc": "Brindé servicios de desarrollo web utilizando metodologías ágiles, diseño responsivo y mejores prácticas. Gestioné proyectos con Trello y Jira, codifiqué diseños especificados por usuarios, realicé revisiones de código, depuración y construí sitios web con Next.js.",
+      "dateRange": "Jun 2021 - Dic 2023"
+    }
+  },
+  
+  "projects": {
+    "ds_marketing": {
+      "title": "DS Marketing · Tienda Shopify",
+      "desc": "Lideré el proyecto como desarrolladora principal. Trabajé con la creación de páginas de producto, carrito de compra, páginas internas y el pie de página. Construí características personalizadas para la página de producto, limpié datos de la tienda y brindé soporte técnico en la gestión de la plataforma."
+    },
+    "bisket_baskets": {
+      "title": "Bisket Baskets · Tienda Shopify",
+      "desc": "Lideré el proyecto como desarrolladora principal. Trabajé con la creación de las páginas de producto, internas, pie de página y secciones de productos destacados. Construí un multi add-to-cart personalizado en la página de producto y brindé soporte técnico en la gestión de la plataforma."
+    },
+    "big_dot": {
+      "title": "Big Dot of Happiness · Tienda Shopify",
+      "desc": "Creación y diseño de la sección de pie de página, páginas internas, colección y páginas de creación de cuenta y login."
+    },
+    "autogeek": {
+      "title": "Autogeek.net · Tienda BigCommerce",
+      "desc": "Creación y diseño de las páginas de producto e internas, las secciones de pie de página y carruseles de productos en la página de inicio."
+    },
+    "cuenta_ahorro": {
+      "title": "Cuenta de Ahorro Ágil · Cuenta bancaria digital",
+      "desc": "Creación de la interfaz de usuario (trabajo completo de frontend). Cuenta 100% digital que puedes abrir en pocos minutos, desde tu celular o PC y solo con tu cédula, sin necesidad de ir al banco."
+    },
+    "pagachat": {
+      "title": "PagaChat · Chatbot de WS",
+      "desc": "Servicio de chatbot en WhatsApp que permite a los usuarios recibir transferencias internacionales instantáneamente directamente a su cuenta de ahorro bancaria a través de tarjetas de débito Visa."
+    },
+    "portal_apps": {
+      "title": "Portal de aplicaciones · Portal interno bancario",
+      "desc": "Migración full stack del portal de aplicaciones internas del banco de PHP a NextJS. Integración de Azure: Microsoft 365 para el inicio de sesión. En este sistema se lleva el control de acceso hacia diversos sistemas internos, reportería de procesos y CRUDs de gestión general"
+    },
+    "venta_marbetes": {
+      "title": "Venta de Marbetes · Sistema interno bancario",
+      "desc": "Migración full stack de la aplicación interna del banco para la venta de marbetes de PHP a NextJS. Integración de Azure: Microsoft 365 para el inicio de sesión. Sistema para la gestión, venta y registro de marbetes de vehículos en el core bancario y DGII."
+    },
+    "sport_unlimited": {
+      "title": "Sport Unlimited Inc. · Tienda BigCommerce",
+      "desc": "Creación y diseño de la sección de pie de página y encabezado, y todas las secciones en las páginas de producto, carrito, cuenta y lista de colecciones"
+    },
+    "dog_outdoors": {
+      "title": "The Dog Outdoors · Tienda Shopify",
+      "desc": "Creación y diseño de la página de producto (sección de galería) y páginas internas. Además, la sección de pie de página y los carruseles de colecciones destacadas en la página de inicio."
+    },
+    "us_appliance": {
+      "title": "US Appliance · Tienda Shopify",
+      "desc": "Creación y diseño de página de producto, internas, las secciones de pie de página y carruseles de productos en la página de inicio."
+    },
+    "ramblers_way": {
+      "title": "Ramblers Way · Tienda Shopify",
+      "desc": "Personalización de la plantilla base de Shopify (Dawn) según el diseño aprobado por el cliente. Gestión y despliegue personalizado de metafields en páginas de productos y colecciones, variantes de productos. Personalización de páginas internas"
+    },
+    "motorbook": {
+      "title": "The MotorBook Store · Tienda BigCommerce",
+      "desc": "Creación y diseño del pie de página y encabezado, secciones de información en las páginas de producto, carrito y cuenta"
+    },
+    "media_supply": {
+      "title": "Media Supply · Tienda Shopify",
+      "desc": "Personalización de la plantilla según el diseño suministrado, personalización de las páginas de colecciones e internas. Estilización de secciones de encabezado, pie de página y tarjetas en la página de inicio y secciones de información en la página de producto."
+    },
+    "paper_ink": {
+      "title": "Paper & Ink Arts · Tienda BigCommerce",
+      "desc": "Creación de mega menú personalizable con widgets y sección de productos, carrusel de marcas, sección de reseñas, sección de preguntas frecuentes en la página de inicio. Personalización de la página de producto (sección de características/detalles, sección de información general, sección de programa de recompensas y sección de clientes). Personalización de páginas internas."
+    },
+    "tall_man": {
+      "title": "Tall Man Shoes · Tienda Shopify",
+      "desc": "Personalización completa de página de producto y tarjetas de producto (galería sticky, visualización de variantes y etiquetas, efectos hover, información de metafields y vista rápida). Creación de secciones de galería personalizadas en la página de inicio. Integración de servicio de reseñas. Personalización de secciones de encabezado y pie de página"
+    },
+    "ghurka": {
+      "title": "Ghurka · Tienda Shopify",
+      "desc": "Personalización completa de página de producto y tarjetas de producto (galería, visualización de variantes como productos separados, swatches personalizados, detalles de producto, integración de reseñas Yotpo y Klaviyo). Personalización de sección de encabezado y pie de página."
+    }
+  }
+}
