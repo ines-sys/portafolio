@@ -12,7 +12,7 @@ export default function LanguageSwitcher() {
   };
 
   useEffect(() => {
-    changeLanguage("es");
+    changeLanguage("en");
   }, []);
 
   return (
