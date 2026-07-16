@@ -1,8 +1,10 @@
 export interface IFrameImage {
-    src: string;
-	alt: string;
-	className?: string;
-	height?: number;
-	width?: number;
+  src: string;
+  alt: string;
+  className?: string;
+  height?: number;
+  width?: number;
 }
-  
+
+/** @deprecated use IFrameImage */
+export type IFrameImageProps = IFrameImage;

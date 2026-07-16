@@ -2,37 +2,55 @@ import React from 'react';
 import { IProjectCard } from './types';
 import FrameImage from '../common/FrameImage';
 import Link from 'next/link';
+import { IconBank, IconExternal, IconShop } from '../Icons';
 
-const ProjectCard = ({ title, desc, image, link}: IProjectCard) => {
-    const imgURL = `https://ines-sys.github.io/portafolio${image.src}`
-  return (
-    <div>
-        {title && image && desc && link ? (
-            <Link href={link} target='__blank' className="projectCard items-center ring ring-2 ring-gray-300 flex flex-col lg:flex-row overflow-hidden before:ease-in-out after:ease-in-out bg-background group cursor-pointer relative flex flex-col gap-4 justify-between rounded-2xl border hover:after:w-full border-foreground-222 hover:border-purple-200 duration-300 p-4 md:p-6 px-8 before:h-full before:w-2 hover:before:w-full after:absolute after:top-0 after:left-0 after:h-full after:w-0 after:duration-300 after:opacity-5  before:duration-300 before:-z-1 before:bg-purple-200 before:absolute before:top-0 before:left-0">
-                <div className='flex w-[125px] h-[125px] lg:w-[150px] lg:h-[150px] items-center duration-300 group-hover:text-foreground group-hover:z-[5] bg-white w-fit py-1 px-2.5 lg:py-2 lg:px-3.5'>
-                    <FrameImage 
-                        src={imgURL} 
-                        alt={image.alt} 
-                        className={`${image.className}`} 
-                    />
-                </div>
-                <div className='font-medium text-xs duration-300 group-hover:text-purple-800 group-hover:z-[5] lg:w-[80%]'>
-                    <h3 className='font-semibold mb-3 flex justify-between items-center text-base'>
-                        <span>{title}</span>
-                        <svg className='svgIcon' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                            <polyline points="15 3 21 3 21 9"></polyline>
-                            <line x1="10" y1="14" x2="21" y2="3"></line>
-                        </svg>
-                    </h3>
-                    <div className='text-sm'>{desc}</div>
-                </div>
-            </Link>
-        ) : (
-            ''
-        )} 
-    </div>
+const ProjectCard = ({ title, desc, image, link, category }: IProjectCard) => {
+  if (!title || !image || !desc || !link) return null;
+
+  const imgURL = `https://ines-sys.github.io/portafolio${image.src}`;
+  const isExternal = link !== '#';
+  const CategoryIcon = category === 'banking' ? IconBank : IconShop;
+
+  const inner = (
+    <>
+      <div className="relative flex h-24 w-24 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-white p-2 ring-1 ring-line sm:h-28 sm:w-28">
+        <FrameImage
+          src={imgURL}
+          alt={image.alt}
+          className={`h-full w-full object-contain ${image.className ?? ''}`}
+          width={112}
+          height={112}
+        />
+        {category && (
+          <span className="absolute -right-1.5 -top-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-accent-deep text-white shadow-glow">
+            <CategoryIcon className="h-3.5 w-3.5" />
+          </span>
+        )}
+      </div>
+      <div className="min-w-0 flex-1">
+        <h3 className="font-display mb-2 flex items-start justify-between gap-3 text-sm font-bold text-plum md:text-base">
+          <span>{title}</span>
+          {isExternal && (
+            <IconExternal className="mt-0.5 h-4 w-4 shrink-0 text-accent opacity-50 transition group-hover:opacity-100" />
+          )}
+        </h3>
+        <p className="text-sm leading-relaxed text-muted">{desc}</p>
+      </div>
+    </>
   );
+
+  const className =
+    'project-card group flex flex-col gap-4 rounded-2xl border border-line bg-surface-strong/80 p-4 backdrop-blur-md sm:flex-row sm:items-start md:p-5';
+
+  if (isExternal) {
+    return (
+      <Link href={link} target="_blank" rel="noopener noreferrer" className={className}>
+        {inner}
+      </Link>
+    );
+  }
+
+  return <div className={className}>{inner}</div>;
 };
 
 export default ProjectCard;

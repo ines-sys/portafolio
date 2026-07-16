@@ -6,6 +6,7 @@ import { initReactI18next } from "react-i18next";
 import en from "../locales/en.json";
 import es from "../locales/es.json";
 
+// Fixed default for SSR/hydration — system language is applied after mount.
 i18n.use(initReactI18next).init({
   lng: "en",
   fallbackLng: "en",
