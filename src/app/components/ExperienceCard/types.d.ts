@@ -1,11 +1,14 @@
+import type { ReactNode } from 'react';
+
 interface ITag {
-    title: string;
+  title: string;
 }
 
 export interface IExperienceCard {
-    dateRange: string;
-    title: string;
-    desc: string;
-    link: string;
-    tags: ITag[];
+  dateRange: string;
+  title: string;
+  desc: string;
+  link: string;
+  tags: ITag[];
+  icon?: ReactNode;
 }

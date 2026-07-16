@@ -1,38 +1,52 @@
 import React from 'react';
 import { IExperienceCard } from './types';
-
 import Link from 'next/link';
+import { IconExternal } from '../Icons';
 
-const ExperienceCard = ({dateRange, title, desc, tags, link}: IExperienceCard) => {
-  return (
-    <div>
-        {title && dateRange && desc ? (
-        <Link href={link} target='__blank' className='experienceCard flex flex-col hover:text-secondary rounded-2xl p-6 hover:ring-2 hover:ring-secondary'>
-            <h3 className='font-bold flex items-center justify-between text-lg'>
-                <span>{title}</span>
-                <svg className='svgIcon -mt-1' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                    <polyline points="15 3 21 3 21 9"></polyline>
-                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
+const ExperienceCard = ({ dateRange, title, desc, tags, link, icon }: IExperienceCard) => {
+  if (!title || !dateRange || !desc) return null;
+
+  const content = (
+    <>
+      <div className="mb-3 flex flex-col gap-3">
+        <div className="flex items-start gap-3">
+          {icon && <span className="icon-badge mt-0.5 shrink-0">{icon}</span>}
+          <div className="min-w-0 flex-1">
+            <h3 className="font-display text-base font-bold leading-snug text-plum md:text-lg">
+              {title}
             </h3>
-            <span className='font-semibold italic text-sm'>
-                {dateRange}
-            </span>
-            <div className='mt-5 text-base'>{desc}</div>
-            <ul className='mt-5 flex flex-wrap'>
-                {tags.map((tag, index) => (
-                    <li className="mt-2 ring-1 ring-inset ring-purple-700/10 bg-purple-200 text-purple-800 text-sm font-medium me-2 px-3 py-1.5 rounded-full" key={index}>
-                        {tag.title}
-                    </li> 
-                ))}
-            </ul>
-        </Link>
-        ) : (
-            ''
-        )} 
-    </div>
+            <p className="font-ui mt-2 text-xs font-semibold uppercase tracking-wider text-accent">
+              {dateRange}
+            </p>
+          </div>
+          {link && link !== '#' && (
+            <IconExternal className="mt-1 h-4 w-4 shrink-0 text-accent opacity-50 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100" />
+          )}
+        </div>
+      </div>
+      <p className="text-sm leading-relaxed text-muted">{desc}</p>
+      <ul className="mt-4 flex flex-wrap gap-2">
+        {tags.map((tag, index) => (
+          <li className="tag-pill rounded-full px-3 py-1 text-[11px] font-medium" key={index}>
+            {tag.title}
+          </li>
+        ))}
+      </ul>
+    </>
   );
+
+  const className =
+    'experience-card group block rounded-2xl border border-line bg-surface-strong/80 p-5 backdrop-blur-md md:p-6';
+
+  if (link && link !== '#') {
+    return (
+      <Link href={link} target="_blank" rel="noopener noreferrer" className={className}>
+        {content}
+      </Link>
+    );
+  }
+
+  return <div className={className}>{content}</div>;
 };
 
 export default ExperienceCard;
