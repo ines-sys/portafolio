@@ -18,11 +18,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-/* export const metadata: Metadata = {
+export const metadata: Metadata = {
   title: "Inés Montero · Software Engineer",
   description:
     "Ingeniera en Sistemas — Full Stack & e-Commerce. Soluciones escalables para banca digital y comercio electrónico.",
-}; */
+};
 
 const themeInitScript = `
 (function(){
